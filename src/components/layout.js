@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
+import "./layout.css"
 
 import { rhythm, scale } from "../utils/typography"
 
@@ -17,7 +18,7 @@ class Layout extends React.Component {
           style={{
             ...scale(1.5),
             marginBottom: rhythm(1.5),
-            marginTop: 0,
+            marginTop: 0
           }}
         >
           <Link
@@ -63,13 +64,13 @@ class Layout extends React.Component {
             padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
           }}
         >
+
           <header>{header}</header>
           <main>{children}</main>
         </div>
         <Footer>
-          © {new Date().getFullYear()}, Built with
+          © {new Date().getFullYear()}, Built with 💜 by Fumi
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
         </Footer>
       </Wrapper>
     )

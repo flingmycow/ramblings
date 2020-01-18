@@ -34,12 +34,15 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in San
-              Francisco building useful things.
+              Written by <strong>{author}</strong> who lives in the West Midlands, UK. 
+              Currently building data assets with Python, Cloud tools (GCP) and some DevOps.
               {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
+                You should follow her on Twitter 
               </a>
+              <span role="img" aria-label="purple heart">
+              💜
+              </span>
             </p>
           </Container>
         )
