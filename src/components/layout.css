@@ -1,0 +1,19 @@
+
+body {
+    background-color: #F0F0F0;
+}
+
+#profile-pic {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+img:hover {
+    opacity: .7;
+}
+
+a:link {color: #D27C95;}
+a:visited {color: #8D6D9E;}
+a:hover {color: #605C5C;}
+a:active {color: #605C5C}
