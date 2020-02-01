@@ -3,6 +3,14 @@ body {
     background-color: #F0F0F0;
 }
 
+p, li {
+    font-size: 14px;
+}
+
+ol, ul {
+    margin-left: 15px;
+}
+
 #profile-pic {
     height: 200px;
     width: 200px;
