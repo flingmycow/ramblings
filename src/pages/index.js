@@ -7,13 +7,26 @@ import EntireLayout from "../components/new_layout"
 import SEO from "../components/seo"
 import Button from "../components/button"
 
+class AboutMe extends React.Component {
+  render() {
+    return <div>
+      <h1>About Me 👩‍💻</h1>
+      
+      <p>I'm a Canadian born Japanese gal, and I put my heart and soul into everything I do. I'm cat and food obsessed, jam to lots of music, read a lot of non-fiction books, listen to podcasts on tech, women, psychology and life. Oh did I mention games? I love a good board/video game. I'm sure I got into coding through my Neopets addiction :-)</p>
+      <p>
+I mainly use Python, SQL, Google Cloud Platform, and Tableau. I dabble with some web development thingymabobs (HTML, CSS, JavaScript, Flask, React, etc!) and other tools like bash, Kubernetes and Docker.</p>
+    </div>;
+  }
+}
 
 class IndexPage extends React.Component {
   render() {
     const siteTitle = "Fumi Saito"
 
     return (
-      <EntireLayout/>
+      <div>
+        <EntireLayout children={<AboutMe/>}/>
+      </div>
     )
   }
 }
