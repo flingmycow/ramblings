@@ -1,6 +1,11 @@
 
+@import url('https://fonts.googleapis.com/css?family=Courier+Prime|Montserrat|Quicksand|Raleway&display=swap');
+
 body {
     background-color: #F0F0F0;
+    font-family:'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 p, li {
@@ -11,17 +16,104 @@ ol, ul {
     margin-left: 15px;
 }
 
-#profile-pic {
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-}
-
 img:hover {
     opacity: .7;
 }
+
+.icons{
+    height: 35px;
+    width: 35px;
+  }
 
 a:link {color: #D27C95;}
 a:visited {color: #8D6D9E;}
 a:hover {color: #605C5C;}
 a:active {color: #605C5C}
+  
+  .all_content {
+    display: flex;
+    justify-content: flex-start;
+    height: 100vh;
+  }
+  
+    .main_info {
+    /* top right bottom left*/
+    padding: 5px 100px 10px 35px;
+    margin: 10px;
+    width: 75vw;
+  }
+  
+  .main_info p {
+    font-size: 18px;
+  }
+  
+  .site_links a:link, .site_links a:visited {
+    background-color: #8D6D9E;
+    color: white;
+    font-size: 12px;
+    padding: 5px 10px;
+    margin: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .site_links a:hover {
+    background-color: #D27C95;
+  }
+  
+  #nav_bar {
+    background-color: #F4ACB7;
+    padding: 10px;
+    height: 100vh;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  #nav_bar h1 {
+    font-size: 30px;
+    margin: 0px 0px 10px 0px;
+  }
+  
+  #nav_bar p {
+    margin: 0px 0px 20px 0px;
+  }
+
+  .icons:hover{
+    animation: bounce 1s;
+ }
+ 
+ .social_media {
+   padding-top: 20px;
+ }
+  
+  #img_wrap {
+     width: 50%;
+     margin: auto;
+  }
+  
+  #nav_bar #fumi_photo {
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+  }
+  
+  
+  @keyframes bounce {
+   0%, 20%, 60%, 100% {
+     -webkit-transform: translateY(0);
+     transform: translateY(0);
+   }
+   40% {
+     -webkit-transform: translateY(-20px);
+     transform: translateY(-20px);
+   }
+   80% {
+     -webkit-transform: translateY(-10px);
+     transform: translateY(-10px);
+   }
+  }
+  
