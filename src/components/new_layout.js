@@ -28,26 +28,22 @@ class SiteLinks extends React.Component {
 class NavBar extends React.Component {
   render() {
     return <div id="nav_bar">
+      <span id="nav_bar_content">
       <div class="img_wrap">
        <img id="fumi_photo" src='https://i.ibb.co/Np2c5G0/d3rkv-Rc-400x400.jpg'/>
       </div>
       <h1>Hi,<br/>I'm Fumi!</h1>
-      <p>Data Engineer, Techie, Advocate for All Things Diversity in Tech 💜 </p>
+      <p>Data Engineer, Techie, Advocate for All Things Diversity in Tech <span role="img" aria-label="sparkles">✨</span> </p>
       {/* <div class="img_wrap">
       <img class="cute_icon" src="https://78.media.tumblr.com/b0958a5527425cc57eff774869273007/tumblr_inline_mju0hsutUD1roozkr.gif"/>
       </div> */}
       <SiteLinks/>
       <SocialMediaLinks/>
+      <p><small>Built with <span role="img" aria-label="heart">💜</span> by Fumi</small></p>
+      </span>
     </div>;
   }
 }
-
-// class MainContent extends React.Component {
-//   render() {
-//     return <div class="main_info">
-//     </div>;
-//   }
-// }
 
 class EntireLayout extends React.Component {
   render() {
