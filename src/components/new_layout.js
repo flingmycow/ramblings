@@ -28,7 +28,7 @@ class SiteLinks extends React.Component {
 class NavBar extends React.Component {
   render() {
     return <div id="nav_bar">
-      <span id="nav_bar_content">
+      <div id="nav_bar_content">
       <div class="img_wrap">
        <img id="fumi_photo" src='https://i.ibb.co/Np2c5G0/d3rkv-Rc-400x400.jpg'/>
       </div>
@@ -40,7 +40,7 @@ class NavBar extends React.Component {
       <SiteLinks/>
       <SocialMediaLinks/>
       <p><small>Built with <span role="img" aria-label="heart">💜</span> by Fumi</small></p>
-      </span>
+      </div>
     </div>;
   }
 }
