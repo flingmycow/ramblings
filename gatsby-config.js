@@ -3,7 +3,7 @@ module.exports = {
     // edit below
     title: `Fumi Saito's Ramblings`,
     author: `Fumi Saito`,
-    description: `A starter personal blog with styled components, dark mode, and Netlify CMS.`,
+    description: `A basic personal website where I can have information about me, blog posts and show off any work I do!`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
       twitter: `fumiETC`,
@@ -17,7 +17,7 @@ module.exports = {
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-feed-mdx`,
-    `gatsby-plugin-dark-mode`,
+    // `gatsby-plugin-dark-mode`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -74,18 +74,18 @@ module.exports = {
         name: `Fumi Saito`,
         short_name: `FS`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        // background_color: `#663399`,
+        // theme_color: `#663399`,
         display: `minimal-ui`,
         // edit below
         icon: `content/assets/gatsby-icon.png`,
       },
     },
-    {
-      resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfigModule: `src/utils/typography`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-typography`,
+    //   options: {
+    //     pathToConfigModule: `src/utils/typography`,
+    //   },
+    // },
   ],
 }

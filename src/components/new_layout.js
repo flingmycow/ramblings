@@ -1,79 +1,87 @@
 import React, { Component }  from 'react';
+import { Link, graphql } from "gatsby"
 import styled from "styled-components"
 import "./layout.css"
 
 
-class SocialMediaLinks extends React.Component {
+class Footer extends React.Component  {
+  render() {
+    return <div class="footer">
+    <FooterStyle>
+    © {new Date().getFullYear()}, Made with 💜 by Fumi
+    {` `}
+    </FooterStyle>
+    </div>
+  }
+}
+
+class BigSocialMediaLinks extends React.Component {
   render() {
     return <div class="social_media">
-      <a href='mailto:fumikosaito@hotmail.com'>
+            <a class="contact_links" href='mailto:fumikosaito@hotmail.com'>
           <img src="https://img.icons8.com/dusk/64/000000/secured-letter.png" class="icons"/></a>
-        <a href='https://twitter.com/FumiETC'><img src="https://img.icons8.com/dusk/64/000000/twitter.png" class="icons"/></a>
-        <a href='https://www.linkedin.com/in/fumikosaito/'><img src="https://img.icons8.com/dusk/64/000000/linkedin.png" class="icons"/></a>
-        <a href='https://github.com/flingmycow'><img src="https://img.icons8.com/dusk/64/000000/github.png" class="icons"/></a>
+        <a  class="contact_links" href='https://twitter.com/FumiETC'><img src="https://img.icons8.com/dusk/64/000000/twitter.png" class="icons"/></a>
+        <a  class="contact_links"href='https://www.linkedin.com/in/fumikosaito/'><img src="https://img.icons8.com/dusk/64/000000/linkedin.png" class="icons"/></a>
+        <a class="contact_links"href='https://github.com/flingmycow'><img src="https://img.icons8.com/dusk/64/000000/github.png" class="icons"/></a>
+        <Footer/>
    </div>;
   }
 }
 
-class SiteLinks extends React.Component {
+class SmallSocialMediaLinks extends React.Component {
   render() {
-    return <div class="site_links">
-      <a href="#"> About </a>
-      <a href="#"> Blog </a>
-      <a href="#"> Projects </a>
-    </div>;
+    return <div class="social_media">
+        <a class="contact_links" href='mailto:fumikosaito@hotmail.com'><img src="https://img.icons8.com/material-rounded/24/000000/email.png" class="icons"/></a>
+        <a  class="contact_links" href='https://twitter.com/FumiETC'><img src="https://img.icons8.com/material-rounded/24/000000/twitter.png" class="icons"/></a>
+        <a  class="contact_links"href='https://www.linkedin.com/in/fumikosaito/'><img src="https://img.icons8.com/material-rounded/24/000000/linkedin.png" class="icons"/></a>
+        <a class="contact_links"href='https://github.com/flingmycow'><img src="https://img.icons8.com/material-rounded/24/000000/github.png" class="icons"/></a>
+      <Footer/>
+  </div>;
   }
 }
 
-class NavBar extends React.Component {
+class Navigation extends React.Component {
   render() {
-    return <div id="nav_bar">
-      <div id="nav_bar_content">
-      <div class="img_wrap">
-       <img id="fumi_photo" src='https://i.ibb.co/Np2c5G0/d3rkv-Rc-400x400.jpg'/>
-      </div>
-      <h1>Hi,<br/>I'm Fumi!</h1>
-      <p>Data Engineer, Techie, Advocate for All Things Diversity in Tech <span role="img" aria-label="sparkles">✨</span> </p>
-      {/* <div class="img_wrap">
-      <img class="cute_icon" src="https://78.media.tumblr.com/b0958a5527425cc57eff774869273007/tumblr_inline_mju0hsutUD1roozkr.gif"/>
-      </div> */}
-      <SiteLinks/>
-      <SocialMediaLinks/>
-      <p><small>Built with <span role="img" aria-label="heart">💜</span> by Fumi</small></p>
-      </div>
-    </div>;
+    return <div id="navbar">
+        <Link to="/"><h1>FS</h1></Link>
+        <div class="contact_links">
+        <Link to="/aboutme/">About</Link>
+        <Link to="/blog/">Blog</Link>
+        <Link to="/projects/">Projects</Link>
+        <Link to="/contact/">Contact</Link>
+        </div>
+      </div>;
   }
 }
 
 class EntireLayout extends React.Component {
   render() {
-    return (<div class="all_content">
-      <NavBar/>
+    return <div id="all_content">
+      <Navigation/>
       <div class="main_info">{this.props.children}</div>
-    </div>
-    );
+      <BigSocialMediaLinks/>
+    </div>;
   }
 }
+
+
+const FooterStyle = styled.footer`
+text-align: center;
+margin: 15px;
+font-size: 11px;
+`
 
   // delete later
 const Wrapper = styled.div`
 min-height: 100vh;
 `
 
-const Footer = styled.footer`
-  text-align: center;
-  margin: 24px;
-`
-
 const Body = styled.body`
-    font-family:'Quicksand', sans-serif;
+    font-family: font-family: 'Roboto Mono', monospace;
     margin: 0;
     padding: 0;
     background-color: #FCEFEF;
 `
-
-// const AllContent = styled.div`
-//   display: flex;`
 
 const Icons = styled.div`
     height: 35px;

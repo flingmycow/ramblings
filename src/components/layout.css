@@ -1,129 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400&display=swap|Quicksand&display=swap');
 
-@import url('https://fonts.googleapis.com/css?family=Courier+Prime|Montserrat|Quicksand|Raleway&display=swap');
 
 body {
-    background-color: #F0F0F0;
-    font-family:'Quicksand', sans-serif;
-    margin: 0;
-    padding: 0;
-    height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f9ecec;
+  font-family: 'Roboto Mono', monospace;
 }
 
-p, li {
-    font-size: 14px;
+.cute {
+  color: #e6739f; 
 }
 
-ol, ul {
-    margin-left: 15px;
+#navbar {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#navbar h1 {
+  font-size: 40px;
+  margin: 0px;
+  padding: 0px;
+  font-weight: 300;
+}
+
+#all_content{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+}
+
+.main_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  text-align: center;
+  padding: 10px;
+}
+
+#about_me_wrapper {
+  width: 55vw;
+}
+
+#about_me_wrapper h1 {
+   font-size: 50px;
+   margin-top: 0px;
+}
+
+#about_me_wrapper h2{
+  margin: 0px;
+}
+
+
+#fumi_photo {
+  padding: 5px;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
 }
 
 img:hover {
-    opacity: .7;
+  opacity: .7;
 }
 
-.icons{
-    height: 35px;
-    width: 35px;
-  }
 
-a:link {color: #D27C95;}
-a:visited {color: #8D6D9E;}
-a:hover {color: #605C5C;}
-a:active {color: #605C5C}
-  
-  .all_content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between; 
-    min-height: 100vh;
-  }
-  
-    .main_info {
-    /* top right bottom left*/
-    padding: 5px 50px 10px 25px;
-    margin: 10px;
-    width: 75vw;
-    /* overflow-y: auto; */
-  }
-  
-  .main_info p {
-    font-size: 18px;
-  }
+:root {
+  --mainColor: #ffc1c8;
+}
 
-  #nav_bar {
-    background-color: #F4ACB7;
-    padding: 10px;
-    flex-grow: 1;
-    width: 300px;
-    text-align: center;
-    display: flex;
-    flex: initial;
-    flex-direction: column;
-    justify-content: center;
-  }
+a:not(.contact_links) {
+  background:
+     linear-gradient(
+       to bottom, var(--mainColor) 0%,
+       var(--mainColor) 100%
+     );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 3px 3px;
+  color: black;
+  text-decoration: none;
+  transition: background-size .2s;
+}
 
-  /* tried to make this so that the nav bar scrolls when you scroll done but not important
-   #nav_bar_content {
-      position: position;
-  }
-   */
-  #nav_bar h1 {
-    font-size: 30px;
-    margin: 0px 0px 10px 0px;
-  }
-  
-  #nav_bar p {
-    margin: 0px 0px 20px 0px;
-  }
+#navbar a {
+  font-size: 30px;
+  margin: 0px 3px 0px 3px;
+  padding: 2px;
+}
 
-  .site_links a:link, .site_links a:visited {
-    background-color: #8D6D9E;
-    color: white;
-    font-size: 12px;
-    padding: 5px 10px;
-    margin: 3px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-  }
-  
-  .site_links a:hover {
-    background-color: #D27C95;
-  }
-  
+a:hover {
+  background-size: 4px 50px;
+}
 
-  .icons:hover{
-    animation: bounce 1s;
+.social_media {
+  /* padding: 10px; */
+  text-align: center;
+}
+
+.icons:hover {
+  animation: bounce 1s;
+}
+
+.icons {
+  height: 30px;
+  width: 30px;
+  margin: 0px;
+}
+
+
+small {font-size:10px;}
+
+@keyframes bounce {
+ 0%, 20%, 60%, 100% {
+   -webkit-transform: translateY(0);
+   transform: translateY(0);
  }
- 
- .social_media {
-   padding-top: 20px;
+ 40% {
+   -webkit-transform: translateY(-20px);
+   transform: translateY(-20px);
  }
-  
-  #img_wrap {
-     width: 50%;
-     margin: auto;
-  }
-  
-  #nav_bar #fumi_photo {
-    height: 175px;
-    width: 175px;
-    border-radius: 50%;
-  }
-  
-  
-  @keyframes bounce {
-   0%, 20%, 60%, 100% {
-     -webkit-transform: translateY(0);
-     transform: translateY(0);
-   }
-   40% {
-     -webkit-transform: translateY(-20px);
-     transform: translateY(-20px);
-   }
-   80% {
-     -webkit-transform: translateY(-10px);
-     transform: translateY(-10px);
-   }
-  }
-  
+ 80% {
+   -webkit-transform: translateY(-10px);
+   transform: translateY(-10px);
+ }
+}

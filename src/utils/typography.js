@@ -12,16 +12,19 @@ Wordpress2016.overrideThemeStyles = () => {
 
 sutroTheme.googleFonts = [
   {
-    name: 'Montserrat',
-    styles: ['400','700'],
+    name: 'Roboto Mono',
+    styles: ['300', '400'],
   },
-  {
-    name: 'Quicksand',
-    styles: ['700']
-  }
+  // {
+  //   name: 'Quicksand',
+  //   styles: ['700']
+  // }
 ]
-sutroTheme.headerFontFamily = ['Quicksand', 'sans-serif']
-sutroTheme.bodyFontsFamily =  ['Montserrat', 'serif']
+sutroTheme.headerFontFamily = ['Roboto Mono', 'monospace']
+sutroTheme.bodyFontsFamily =  ['Roboto Mono', 'monospace']
+
+sutroTheme.bodyWeight = 300
+sutroTheme.boldWeight = 700
 
 delete Wordpress2016.googleFonts
 

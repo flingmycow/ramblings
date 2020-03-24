@@ -69,7 +69,7 @@ class Layout extends React.Component {
           <main>{children}</main>
         </div>
         <Footer>
-          © {new Date().getFullYear()}, Built with 💜 by Fumi
+          © {new Date().getFullYear()}, Made with 💜 by Fumi
           {` `}
         </Footer>
       </Wrapper>
@@ -84,6 +84,7 @@ const Wrapper = styled.div`
 const Footer = styled.footer`
   text-align: center;
   margin: 24px;
+  font-size: 11px;
 `
 
 export default Layout

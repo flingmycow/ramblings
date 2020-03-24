@@ -1,8 +1,11 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { Link, graphql } from "gatsby"
 
-import Layout from "../components/layout"
+// import Layout from "../components/layout"
+import EntireLayout from "../components/new_layout"
 import SEO from "../components/seo"
+import { rhythm } from "../utils/typography"
+import Button from "../components/button"
 
 class NotFoundPage extends React.Component {
   render() {
@@ -10,11 +13,14 @@ class NotFoundPage extends React.Component {
     const siteTitle = data.site.siteMetadata.title
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
+      <EntireLayout location={this.props.location} title={siteTitle}>
         <SEO title="404: Not Found" />
-        <h1>Not Found</h1>
+        <h1> 404! Not Found</h1>
+        <img src="https://i.imgur.com/TN9Lp1v.png?1" style={{width: `50%`}}/>
         <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-      </Layout>
+        <Link to="/">Time to go home</Link>
+        <br/>
+      </EntireLayout>
     )
   }
 }

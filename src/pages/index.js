@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import styled from "styled-components"
 // import { ThemeToggler } from 'gatsby-plugin-dark-mode'
 
 import Layout from "../components/layout"
@@ -7,15 +8,15 @@ import EntireLayout from "../components/new_layout"
 import SEO from "../components/seo"
 import Button from "../components/button"
 
-class AboutMe extends React.Component {
+class HomePage extends React.Component {
   render() {
-    return <div>
-      <h1>About Me <span role="img" aria-label="female-blogger">👩‍💻</span></h1>
-      
-      <p>I'm a Canadian born Japanese gal, and I put my heart and soul into everything I do. I'm cat and food obsessed, jam to lots of music, read a lot of non-fiction books, listen to podcasts on tech, women, psychology and life. Oh did I mention games? I love a good board/video game. I'm sure I got into coding through my Neopets addiction :-)</p>
-      <p>
-I mainly use Python, SQL, Google Cloud Platform, and Tableau. I dabble with some web development thingymabobs (HTML, CSS, JavaScript, Flask, React, etc!) and other tools like bash, Kubernetes and Docker.</p>
-
+    return <div id="about_me_wrapper">
+       <h1>Hi, I'm <CuteText>Fumi!</CuteText></h1>
+       <img id="fumi_photo" src='https://i.ibb.co/Np2c5G0/d3rkv-Rc-400x400.jpg'/>
+       <h2>I create efficient <CuteText>data pipelines</CuteText> and <CuteText>datasets</CuteText> to be used in analytics and data-driven decisions.
+         <br/>Also a lover of <CuteText>tech, diversity, food </CuteText> and <CuteText>kawaii things</CuteText> 
+         <span role="img" aria-label="sparkles">✨</span>
+       </h2>
     </div>;
   }
 }
@@ -26,7 +27,7 @@ class IndexPage extends React.Component {
 
     return (
       <div>
-        <EntireLayout children={<AboutMe/>}/>
+        <EntireLayout children={<HomePage/>}/>
       </div>
     )
   }
@@ -72,3 +73,11 @@ class IndexPage extends React.Component {
 // }
 
 export default IndexPage
+
+const CuteText = styled.span`
+  color: #e6739f; 
+`
+
+const CenterText = styled.div`
+    text-align: left;
+`
