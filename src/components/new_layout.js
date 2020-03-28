@@ -43,7 +43,7 @@ class SmallSocialMediaLinks extends React.Component {
 class Navigation extends React.Component {
   render() {
     return <div id="navbar">
-        <Link to="/"><h1>FS</h1></Link>
+        <Link to="/"><h1 class="logo">FS</h1></Link>
         <div class="contact_links">
         <Link to="/aboutme/">About</Link>
         <Link to="/blog/">Blog</Link>
