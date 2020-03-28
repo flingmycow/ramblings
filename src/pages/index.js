@@ -13,7 +13,6 @@ class HomePage extends React.Component {
     return <div id="about_me_wrapper">
        <h1>Hi, I'm <CuteText>Fumi!</CuteText></h1>
        <img id="fumi_photo" src='https://i.ibb.co/Np2c5G0/d3rkv-Rc-400x400.jpg'/>
-       <br/><br/>
        <h2>I create efficient <CuteText>data pipelines</CuteText> and <CuteText>datasets</CuteText> to be used in analytics and data-driven decisions.
          <br/>Also a lover of <CuteText>tech, diversity, food </CuteText> and <CuteText>kawaii things</CuteText> 
          <span role="img" aria-label="sparkles">✨</span>
@@ -77,8 +76,4 @@ export default IndexPage
 
 const CuteText = styled.span`
   color: #e6739f; 
-`
-
-const CenterText = styled.div`
-    text-align: left;
 `

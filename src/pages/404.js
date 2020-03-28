@@ -16,7 +16,7 @@ class NotFoundPage extends React.Component {
       <EntireLayout location={this.props.location} title={siteTitle}>
         <SEO title="404: Not Found" />
         <h1> 404! Not Found</h1>
-        <img src="https://i.imgur.com/TN9Lp1v.png?1" style={{width: `50%`}}/>
+        <img src="https://i.imgur.com/TN9Lp1v.png?1" style={{width: `50%`, height: `50%`}}/>
         <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
         <Link to="/">Time to go home</Link>
         <br/>
