@@ -39,7 +39,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 80vh;
+  min-height: 75vh;
   text-align: center;
   padding: 10px;
 }
@@ -48,9 +48,8 @@ body {
   width: 55vw;
 }
 
-#about_me_wrapper h1 {
-   font-size: 50px;
-   margin-top: 0px;
+#about_me_wrapper h1, h2 {
+   margin-top: 5px;
 }
 
 
@@ -95,7 +94,7 @@ a:hover {
 }
 
 .social_media {
-  /* padding: 10px; */
+  padding: 5px;
   text-align: center;
 }
 

@@ -28,6 +28,7 @@ class IndexPage extends React.Component {
     return (
       <div>
         <EntireLayout children={<HomePage/>}/>
+        <SEO title={siteTitle}/>
       </div>
     )
   }

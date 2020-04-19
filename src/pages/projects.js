@@ -29,6 +29,7 @@ class ProjectsPage extends React.Component {
     return (
       <div>
         <EntireLayout children={<Projects/>}/>
+        <SEO title={siteTitle}/>
       </div>
     )
   }

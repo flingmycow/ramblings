@@ -35,10 +35,10 @@ function Bio() {
             />
             <p>
               Written by <strong>{author}</strong> who lives in the West Midlands, UK. 
-              Currently building data assets with Python, Cloud tools (GCP) and some DevOps.
+              Currently building data assets with Python, Cloud tools (GCP) and other techie things she finds interesting.
               {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow her on Twitter 
+               Follow on Twitter here 
               </a>
               <span role="img" aria-label="purple heart">
               💜

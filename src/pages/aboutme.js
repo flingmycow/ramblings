@@ -31,6 +31,7 @@ class AboutMePage extends React.Component {
     return (
       <div>
         <EntireLayout children={<AboutMe/>}/>
+        <SEO title={siteTitle}/>
       </div>
     )
   }
