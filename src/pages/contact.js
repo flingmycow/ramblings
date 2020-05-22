@@ -11,11 +11,13 @@ import Button from "../components/button"
 class ContactMe extends React.Component {
   render() {
     return <div id="contact_me_wrapper"  style={{textAlign: `left`}}>
-    <h2>Want to get in touch?</h2>
+    <h2 data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100">Want to get in touch?</h2>
     <br/>
-    <p>Send me an email or tweet!</p>
+    <div data-sal="slide-up" data-sal-duration="1000" data-sal-delay="350">
+    <p>Send me an email or tweet! </p>
     <p><CuteText>email: </CuteText>fumikosaito [at] hotmail [dot] com</p>
     <p><CuteText>twitter: </CuteText> @fumiETC</p>
+    </div>
     </div>;
   }
 }
@@ -23,7 +25,7 @@ class ContactMe extends React.Component {
 
 class ContactMePage extends React.Component {
   render() {
-    const siteTitle = "Fumi Saito"
+    const siteTitle = "Contact Page"
 
     return (
       <div>

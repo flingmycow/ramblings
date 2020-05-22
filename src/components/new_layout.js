@@ -17,7 +17,7 @@ class Footer extends React.Component  {
 
 class BigSocialMediaLinks extends React.Component {
   render() {
-    return <div class="social_media">
+    return <div class="social_media" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="900">
             <a class="contact_links" href='mailto:fumikosaito@hotmail.com'>
           <img src="https://img.icons8.com/dusk/64/000000/secured-letter.png" class="icons"/></a>
         <a  class="contact_links" href='https://twitter.com/FumiETC'><img src="https://img.icons8.com/dusk/64/000000/twitter.png" class="icons"/></a>
@@ -42,7 +42,7 @@ class SmallSocialMediaLinks extends React.Component {
 
 class Navigation extends React.Component {
   render() {
-    return <div id="navbar">
+    return <div id="navbar" data-sal="slide-up" data-sal-duration="1000">
         <Link to="/"><h1 class="logo">FS</h1></Link>
         <div class="contact_links">
         <Link to="/aboutme/">About</Link>

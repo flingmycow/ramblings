@@ -15,13 +15,13 @@ class Blog extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="All posts" />
-        <Bio />
+        <SEO title="Blog - All posts"/>
+        <Bio/>
         <div style={{ margin: "20px 0 40px" }}>
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
             return (
-              <div key={node.fields.slug}>
+              <div data-sal="slide-up" data-sal-duration="1000" data-sal-delay="150" key={node.fields.slug}>
                 <h3
                   style={{
                     marginBottom: rhythm(1 / 4),

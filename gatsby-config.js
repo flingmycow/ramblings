@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `Fumi Saito's Ramblings`,
+    title: `Fumi Saito`,
     author: `Fumi Saito`,
     description: `A basic personal website where I can have information about me, blog posts and show off any work I do!`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
@@ -17,6 +17,7 @@ module.exports = {
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-feed-mdx`,
+    `gatsby-plugin-scroll-reveal`,
     // `gatsby-plugin-dark-mode`,
     {
       resolve: `gatsby-source-filesystem`,

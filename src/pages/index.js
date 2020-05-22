@@ -1,7 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
-// import { ThemeToggler } from 'gatsby-plugin-dark-mode'
 
 import Layout from "../components/layout"
 import EntireLayout from "../components/new_layout"
@@ -11,9 +10,9 @@ import Button from "../components/button"
 class HomePage extends React.Component {
   render() {
     return <div id="about_me_wrapper">
-       <h1>Hi, I'm <CuteText>Fumi!</CuteText></h1>
-       <img id="fumi_photo" src='https://i.ibb.co/Np2c5G0/d3rkv-Rc-400x400.jpg'/>
-       <h2>I create efficient <CuteText>data pipelines</CuteText> and <CuteText>datasets</CuteText> to be used in analytics and data-driven decisions.
+       <h1 data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100">Hi, I'm <CuteText>Fumi!</CuteText></h1>
+       <img data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300" id="fumi_photo" src='https://i.ibb.co/Np2c5G0/d3rkv-Rc-400x400.jpg'/>
+       <h2 data-sal="slide-up" data-sal-duration="1000" data-sal-delay="600" >I create efficient <CuteText>data pipelines</CuteText> and <CuteText>datasets</CuteText> to be used in analytics and data-driven decisions.
          <br/>Also a lover of <CuteText>tech, diversity, food </CuteText> and <CuteText>kawaii things</CuteText> 
          <span role="img" aria-label="sparkles">✨</span>
        </h2>
@@ -23,7 +22,7 @@ class HomePage extends React.Component {
 
 class IndexPage extends React.Component {
   render() {
-    const siteTitle = "Fumi Saito"
+    const siteTitle = "My Home"
 
     return (
       <div>

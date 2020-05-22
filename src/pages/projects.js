@@ -11,11 +11,13 @@ import Button from "../components/button"
 class Projects extends React.Component {
   render() {
     return <div id="about_me_wrapper">
-    <h2>Page under construction</h2>
+    <h2 data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100">Page under construction</h2>
     <br/>
-    <img src='https://i.imgur.com/GODtl6l.png?1' style={{width: `50%`}}/>
+    <div data-sal="slide-up" data-sal-duration="1000" data-sal-delay="350">
+    <img src='https://i.imgur.com/GODtl6l.png?1' style={{width: `40%`}}/>
     <p>This page is currently in development. Please come again in the future :)</p>
     <Link to="/">Time to go home</Link>
+    </div>
 
 </div>;
   }
@@ -24,7 +26,7 @@ class Projects extends React.Component {
 
 class ProjectsPage extends React.Component {
   render() {
-    const siteTitle = "Fumi Saito"
+    const siteTitle = "Projects"
 
     return (
       <div>
