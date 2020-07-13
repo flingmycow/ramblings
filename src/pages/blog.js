@@ -21,7 +21,8 @@ class Blog extends React.Component {
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
             return (
-              <div data-sal="slide-up" data-sal-duration="1000" data-sal-delay="150" key={node.fields.slug}>
+              <div data-sal="slide-up" data-sal-duration="1000" data-sal-delay="150" key={node.fields.slug}
+              style={{ margin: "15px 0 0 0" }}>
                 <h3
                   style={{
                     marginBottom: rhythm(1 / 4),
