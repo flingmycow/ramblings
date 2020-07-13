@@ -1,0 +1,67 @@
+---
+title: What is a Data Engineer? How did I become one? How can you start?
+date: "2020-07-07"
+description: "An overview on how I got into Data Engineering."
+---
+
+# Introduction
+
+So I was very fortunate to have the opportunity to join Jaguar Land Rover as part of their analytics graduate scheme in 2017. This meant I was in the central analytics team and rotated to various projects having exposure to different roles and responsibilities as well as learning about the business. This was a great start to my career in analytics and after a year of experimenting and assessing my personal goals I decided to focus on data engineering. Prior to the scheme I wasn't particularly aware of the role, and I was only exposed to the idea of being an analyst or data scientist. Also, I once had someone reach out and ask how to get into data engineering so I decided to blog about my path, the key skills and tools a data engineer has and tips to help people snag a data engineering role!
+
+# My Path
+
+On the first day of our graduate scheme myself and the other new graduates participated in various ice-breaker activities including three interesting facts (I hate these!) about yourself. Another activity we had was establishing and explaining the responsibilities of each of the main roles in analytics for our team - Data Engineer, Analytics Developer and Data Scientist. It was evident that I wasn't quite sure what a data engineer did as I couldn't articulate responsibilities associated with that position. 
+
+However, at the time my mind wasn't focused on that role. I initially had my eyes set on being a data scientist. I studied machine learning, reinforcement learning, optimisation and bioinspired algorithms in my masters so I thought I had enough fundamental information to work in that role. Throughout the graduate scheme I rotated and worked on various projects analysing and engineering data. I created many Tableau dashboards and provided clean, useful datasets for my team. I did minimal data science work and initially it played on my mind, however my frequent exposure to data engineering made me realise what my true calling was. I realised my desire for data science wasn't linked to passion and was just an inner desire to not 'waste' the time and effort I spent studying at university. I realised I was much more energised and excited by the projects where I developed pipelines or systems rather than deep statistical analysis of data and creating models. Plus, I was only interested in a subset of topics in data science.
+
+Why am I telling you this? Well a few reasons. One, it's fine to have your eyes set on a role or to be in a position where you don't know exactly what you want to do. If you have the freedom to experiment and try different things then go for it. Having these experiences will help shape your thoughts and ideas. Two, I had no idea what a data engineer was at first, but after exposure to the role I realised it was the one for me. If you're unsure about the role there are things you can try do (see below) to understand it better. Three, think about what truly excites you and why you desire a role. By digging deeper into my initial choices I realised that they were wobbly reasons for entering a field.
+
+# What is a Data Engineer?
+
+I've talked a bit about data engineering and my personal preferences. You may be thinking "I still don't get what a data engineer does" or want further clarification. Look no further!
+
+Note: This definition is based off of my own experience. You will see roles with the same title advertised and there will be differences in expectations and skills required.
+
+Overall a Data Engineer will do the following
+
+- Design schemas and architect how data should be structured and stored depending on their purpose (eg. analysis, dashboarding, reporting, etc)
+- Create datasets that are clean and formatted to meet business requirements
+- Process batches or streams of data from source systems
+- Develop ETL/ELT data pipelines for loading and processing data to the desired format
+- Write tests on the data and on the code that processes this data
+- Automate and/or orchestrate different data processing pipelines
+- Write documentation and data flow diagrams
+
+Data engineers create the datasets that can be used by analysts and data scientists to create dashboards, reports and models. They may need process the data to suit a particular use case, but most of the heavy lifting is done by the data engineer. 
+
+# What skills do they need?
+
+In terms of technical skills the primary ones I tend to see in job adverts is Python and SQL. We use BigQuery at work and obtaining data, analysing data or even joining data is relatively easy with SQL. It's also used for interacting with relational databases. Python is also a great, flexible language and for users who are relatively new to programming the syntax is friendly for getting started. There are many libraries available to suit almost any use case; we use Python to write data pipelines using Luigi. 
+
+I have also seen these other technical skills in demand:
+
+- AWS/GCP/Azure - The cloud makes it easier to perform tasks, scale jobs, access data and programs. It's hard to write a brief summary on the cloud, but it offers a seemingly infinite number of resources and products that can be combined to suit almost any use case. I can only see the demand rise higher for these skills. AWS has the largest market share of customers, but I have been using GCP for nearly three years and I love it (biased... yes)
+- Spark/Hadoop - Not all businesses use Spark or Hadoop, but some businesses still use these distributed big data computing software. Spark runs on top of Hadoop and provides many more libraries for different use cases so if you want to dive into this then probably start with Spark.
+- NoSQL - There are many varieties of NoSQL including key-value (eg. Redis), document (eg. MongoDB), column (eg. BigTable, Cassandra), and graph (eg. Neo4J, TigerGraph). These can hold data of different structures in comparison to RDBMS and they can be used in different ways. They don't necessarily replace RDBMS as they serve a different purpose. It's worth trying out a couple of these if you haven't!
+
+I have also seen Scala, Java, Kafka, R, Linux Docker, etc. I wouldn't get too strung up on all these things! If you're completely new to data engineering start with SQL and Python along with one of the cloud providers. GCP offer a free $300 credit and some of their products have a free tier so if you use under that limit you don't have to pay!
+
+# How to get started in Data Engineering?
+
+If you're completely new to data engineering there are some courses online you can take to get started. Here are a few I found (unfortunately not free):
+
+- [https://www.dataquest.io/path/data-engineer/](https://www.dataquest.io/path/data-engineer/)
+- [https://www.datacamp.com/courses/introduction-to-data-engineering](https://www.datacamp.com/courses/introduction-to-data-engineering)
+- [https://www.udacity.com/course/data-engineer-nanodegree--nd027](https://www.udacity.com/course/data-engineer-nanodegree--nd027)
+
+I also found this article to be a good, comprehensive overview of a data engineer and provides links to further materials - [https://www.analyticsvidhya.com/blog/2018/11/data-engineer-comprehensive-list-resources-get-started/](https://www.analyticsvidhya.com/blog/2018/11/data-engineer-comprehensive-list-resources-get-started/)
+
+As I mentioned before if this is new territory for you I recommend learning SQL and Python. Start with the basics and then work your way through by manipulating and processing data. Then start writing ETL or ELT pipelines and have them interact with the cloud. If you're stuck on what to learn you can always check out the above courses and see their syllabus for ideas on what to look at. If you want to a side project perhaps obtaining data from an API and processing it, load it into the cloud and then have a simple visualisation dashboard displaying metrics on the data you've obtained.
+
+Although this wasn't a deep dive into all the things a data engineer should know and explanations of their concepts, I hope this post is somewhat useful for someone who is considering a career as a data engineer. Perhaps in the future I will write more on this topic.
+
+Thanks for reading and if you have any comments and questions either send me an email or tweet me.
+
+Cheers,
+
+Fumi
