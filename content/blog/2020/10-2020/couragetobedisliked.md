@@ -1,6 +1,6 @@
 ---
 title: The Courage to be Disliked - Book Review 
-date: "2020-09-21"
+date: "2020-10-20"
 description: A summary and key takeaways from the book The Courage to be Disliked - How to free yourself, change your life and achieve real happiness
 ---
 
