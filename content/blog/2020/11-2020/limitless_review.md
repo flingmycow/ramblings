@@ -39,12 +39,12 @@ The brain can be modified by our actions and environments - this is neuroplastic
 
 According to research our ability to concentrate lasts between 10 and 40 minutes. Spend more time and the impact of our work begins to reduce. This is why techniques such as the Pomodero is recommended. Also, people are more likely to remember the beginning (__Primacy__) and the end (__Recency__) of the content they're consuming. This is why it's a good idea to split your work into chunks - due to primacy and recency reading a book for 2 hours straight is less effective than reading in four 25 minute chunks.
 
-Additionally, learning is affected by your emotions and physical state. Look after yourself by exercising, eating heathly and putting yourself in a state (eg. curiosity, fascination, joy) that is optimal for learning.
+Additionally, learning is affected by your emotions and physical state. Look after yourself by exercising, eating healthily and putting yourself in a state (eg. curiosity, fascination, joy) that is optimal for learning.
 
 ### Tips for Better Learning
 
 * Learn with the intent of teaching others
-* Learn with a beginniner's mind
+* Learn with a beginner's mind
 * Forget about your limitations
 * Engage as much as you can as it helps you truly learn the material (eg. Write code instead of reading about code)
 * Frequently review and reflect what you have learned
@@ -54,7 +54,7 @@ Additionally, learning is affected by your emotions and physical state. Look aft
 
 > "He who asks questions cannot avoid the answers"
 
-Have you ever only realised the importance or existance of something after paying more attention to that topic? Answers and information are all around us, but we pay most attention when we ask specific questions related to these concepts. It's important to focus on questions that will help you. Questions such as "What will they think of me?" or "How can I blend in?" will direct all your focus on yourself and other's actions. This is not helpful, limits your attention and can affect your comprehension skills.
+Have you ever only realised the importance or existence of something after paying more attention to that topic? Answers and information are all around us, but we pay most attention when we ask specific questions related to these concepts. It's important to focus on questions that will help you. Questions such as "What will they think of me?" or "How can I blend in?" will direct all your focus on yourself and other's actions. This is not helpful, limits your attention and can affect your comprehension skills.
 
 Jim's suggested questions for reading or learning something new
 
@@ -89,18 +89,18 @@ The main takeaway here is that being a genius isn't just about being academicall
 
 ## Changing your mindset
 
-Jim's Analogy - thermometer vs thermastat
+Jim's Analogy - thermometer vs thermostat
 
 * A thermometer simply tells you the temperature
-* A thermastat has the ability to change settings based on environmental factors
+* A thermostat has the ability to change settings based on environmental factors
 
-A limiting belief is like a thermometer, a limitless mind is like a thermastat.
+A limiting belief is like a thermometer, a limitless mind is like a thermostat.
 
 ### Steps
 
 1. __Name your limiting belief__ - be aware and notice the thoughts you're telling yourself. Remember these are __opinions not facts__. Are you using words like 'I'm not' or 'I can't'? Change them from fixed statements to phrases of learning and development.
 2. __Get to the facts__ - what is the evidence supporting your limiting belief? Are you _really_ that bad at presenting? Is your inner critic distracting you from your task so you perform worse than usual? This is why it's important to change your mindset.
-3. __Create a new belief__ - repurpose your inner critic as a different persona that you can ignore. You don't want to see your inner critic as you, but as a seperate character that you will eventually learn to discredit and ignore :)
+3. __Create a new belief__ - re-purpose your inner critic as a different persona that you can ignore. You don't want to see your inner critic as you, but as a seperate character that you will eventually learn to discredit and ignore :)
 4. __Find positivity in your life__ - believe it or not positive emotions helps broaden attention and thinking, reduces lingering of negative thoughts, improve resilience, and greater well-being.
 
 ## 7 Lies of Learning
@@ -162,11 +162,12 @@ Jim describes Bruce Lee's life journey to becoming the legend he is today. He di
 
 Passion is what makes you excited inside, and purpose is how you relate to other people using your passions. When you use statements that start with "I am", it influences your future. For example saying "I am an alcoholic" will make it hard for you to quit alcohol. Not convinced? [There was a study where people who used identifying statements (eg "being a voter") were more likely to vote than people who were simply asked about their likelihood of voting.](https://www.pnas.org/content/108/31/12653)
 
-If you're struggling to movtivate yourself to do a task, then you need to create a more compelling reason to do it. I don't workout because I enjoy it, I work out because I want to be healthy. You shouldn't wait for a perfect environment to do something - instead remind yourself of the benefits of doing something, or conversely, the negative consequences of not doing a task. Align these with your personal values and goals to make it easier.
+If you're struggling to motivate yourself to do a task, then you need to create a more compelling reason to do it. I don't workout because I enjoy it, I work out because I want to be healthy. You shouldn't wait for a perfect environment to do something - instead remind yourself of the benefits of doing something, or conversely, the negative consequences of not doing a task. Align these with your personal values and goals to make it easier.
 
 ## Energy
 
 Tips for maximising your brain's capacity
+
 1. __Good Brain Diet__ - Avocados, Blueberries, Broccoli, Dark chocolate, Eggs, Green leafy vegetables, Salmon/sardines/caviar, tumeric, walnuts
 2. __Brain Nutrients__ - Get supplements if you're unable to consume any of the above ingredients. Suggested nutrients include phospholipid DHA, B vitamins, Curcumin.
 3. __Exercise__ - "exercise changes the brain in ways that protect memory and thinking skills"
@@ -184,15 +185,174 @@ Tips for maximising your brain's capacity
 
 __Zeigamik effect__: uncompleted tasks create a level of tension that keeps the task at the front of our minds until it is completed
 
-People usually procrastinate because they're avoiding a big project or task as it seems very difficult. This can lead to unhelpful thought patterns that triggers sleep issues, anxiety symptoms and other mental health problems. How to approach your work? First, be kind to yourself. Don't feel ashamed for not completing some work - progress isn't linear! Secondly, split the task into smaller, easier to complete tasks. Then start with the first step - your mind will feel better once you start working on the task. If you keep following this process then one day it'll become a habit. According to studies it takes an average of sixty-six days to create a habit. Focus on creating small, good habits as they will reward you in the long-term. At the beginning you won't see the impact of meditating ten minutes or eating a chocolate bar every day, but in a year you will see a big difference.
+People usually procrastinate because they're avoiding a big project or task as it seems very difficult. This can lead to unhelpful thought patterns that triggers sleep issues, anxiety symptoms and other mental health problems. How to approach your work? First, be kind to yourself. Don't feel ashamed for not completing some work - progress isn't linear! Secondly, split the task into smaller, easier to complete tasks. Then start with the first step - your mind will feel better once you start working on the task. If you keep following this process then one day it'll become a habit. According to studies it _takes an average of sixty-six days_ to create a habit. Focus on creating small, good habits as they will reward you in the long-term. At the beginning you won't see the impact of meditating ten minutes or eating a chocolate bar every day, but in a year you will see a big difference.
 
 ## Fogg Behaviour Model
 
 1. __Motivation__ - pleasure/pain, hope/fear (eg. setting 10 alarms to not miss a test), social acceptance/rejection
-2. __Ability__ - factors influencing whether we can complete a task -> Time, Money (not too expensive), Physical Effect (can we physically do it?), Brain cycles (can't be too hard), Social Deviance (is this normal in society?), Nonroutine (is this close enough to our usual routine?)
-3. __Prompts__ - spark (eg. email otification), facilitator (eg. software that helps you do taxes; motivation high, ability low), signal (eg. placing fruit near your desk as a reminder)
+2. __Ability__ - factors influencing whether we can complete a task -> Time, Money (not too expensive), Physical Effect (can we physically do it?), Brain cycles (can't be too hard), Social Deviance (is this normal in society?), Non-routine (is this close enough to our usual routine?)
+3. __Prompts__ - spark (eg. email notification), facilitator (eg. software that helps you do taxes; motivation high, ability low), signal (eg. placing fruit near your desk as a reminder)
 
 ### Tips for creating a new habit
+
 * Ensure it's something you actually want
 * Is it something that you can actually achieve some day? If it's too hard simplify and make an easier habit (eg. Don't make a habit to run 3km a day when you don't even go out. Make it a smaller goal)
 * Create prompts or reminders for doing the habit - best to set a specific time to do it.
+
+## Flow
+
+Flow is when you're working on a task and you're so engaged that nothing else seems to matter. 
+
+Tips for being in the flow
+
+* eliminate distractions
+* set aside enough time
+* set clear goals for the task
+* and challenge yourself
+
+Things that interfere with flow
+
+* multitasking
+* stresses - too many stresses in your life means they're more likely to sneak up and disturb your work. If there's anything that can be resolved now then do that first
+* fear of failure - "perfectionism reduces creativity and innovation"
+* lack of conviction - if you believe you cannot complete the task then you're essentially deciding the outcome. we perceive uncertainty as a threat, but if you have __enough__ skills, passion and information then let go of those fears and just try
+
+# Methods
+
+## Focus
+
+> "Concentration is at the crux of all human success and endeavor"
+
+If you can't focus on your work then how are you going to finish anything? It's recommended you remove clutter from your environment, shut down applications on your computer you don't need, schedule distraction times in your calendar, and exercise your breathe. Recommended to follow the 4-7-8 method where you inhale through your mouth for 4 seconds, hold it for 7, then exhale for 8 seconds. Repeat these a few times and it'll help you center your mind. 
+
+Not convinced? Well, according to studies interrupted tasks resumes 82% on the same day. However, it takes an average 23 minutes and 15 seconds to get back to the task.
+
+## Study
+
+### Four stages of competence
+
+<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Competence_Hierarchy_adapted_from_Noel_Burch_by_Igor_Kokcharov.svg/330px-Competence_Hierarchy_adapted_from_Noel_Burch_by_Igor_Kokcharov.svg.png' width=50%>
+
+When it come to learning there are four stages an individual goes through
+`Not knowing what they don't know -> Knowing what they don't know -> Understands it, but requires focus and thinking to do it -> Skill becomes second nature`
+
+### Techniques
+
+We are rarely taught how to study properly in school. Instead there is a lot of focus on tests and grades that we try approaches like cramming to improve our chances of a high grade. This may work to ace a test, but when it comes to truly learning it is not efficient. 
+
+Studying Suggestions
+
+1. __Active Recall__ - review your content and try to recall as much as possible. `Recollection != recognition`
+2. __Spaced Repetition__ - if you go over something only once, chances are you will forget it. Go over the material again a few times to reinforce the concepts and help you retain it.
+3. __Good Posture__ - by sitting correctly you feel better and help your body breath and circulate oxygen. This will make your studying experience more enjoyable and effective.
+4. __Smells Can Help__ - Using smell can help you recall particular events or pieces of information. Apparently the scent of peppermint and lemon promotes concentration.
+5. __Music for the Mind__ - If you can learn something via a song (eg. alphabet song) you will remember it more easily. Also, listening to music when studying can help improve your mood. Baroque music helps with focus and deep concentration.
+6. __Listen, Listen, Listen__ - There's a strong correlation between listening and learning.
+7. __Take Good Notes__ - Don't compromise listening to a speaker by taking too many notes. Ensure they're written in your own words and helps with recall. Consider what you're goals are for writing notes in the first place.
+
+## Memory
+
+> "There is no such thing as a good memory or a bad memory; there is only a trained memory and an untrained memory"
+
+If you're like me and you struggle to remember things then perhaps you need to adjust your approach to recalling information. Jim suggests you motivate yourself to wanting a stronger memory thus putting more effort into remembering concepts. Ensure you're fully present and paying attention to material. Finally, using good methods and having a reference point helps us recall things. Repetition learning/ Rote learning does not work long-term.
+
+### Baker/baker Paradox
+
+A study where two groups were shown a photo of a man. The first group was told he's a baker, whilst the second group was told his last name is Baker. Later they were asked about the man the first group performed better. Why? By creating associations we're able to better grasp information. 
+
+Association is critical to learning something new; it must be related to something you already know.
+
+### Other Tips
+
+* When memorizing a list of words try making a story using each item on the list
+* Learning is an active activity, not a passive one
+* As previously mentioned, association is important for retaining information
+* Think concepts through with imagery and pictures 
+* Information combined with emotion becomes a long-term memory
+* With creativity you can use your imagination to pretend things exist in certain areas for easier recall
+* Substitution - trying to remember a foreign word? Can you replace the term with a different set of words that sound similar? 
+  * eg. French word Escargot. Imagine a snail getting into an S-car and making the car go.
+
+## Speed Reading
+
+There are so many benefits for reading - improved memory, focus, vocabulary, imagination. Studies show that there is a direct relationship between your ability to read and your success in life. Skilled readers enjoy better jobs, higher incomes and greater opportunities for success in all realms of life.
+
+Two factors affect reading speed - reading comprehension and rate.
+
+Habits that can affect your reading speed
+* Regression or going back and forth between text
+* Subvocalisation - your inner voice reading the material as you go through it
+  * Remember we generally think with images; try to visualise instead of internally reciting words
+
+### Reading Myths
+
+1. Faster readers do not comprehend material - they usually have better comprehension
+2. It's harder and takes more effort to read faster
+3. Faster readers can't appreciate reading
+
+If you're struggling to read fast use your finger to follow the text. This helps your attention and can help increase your reading rate.
+
+### How to Read Faster
+
+1. Practice - Reading is like exercise. You should aim to read everyday!
+2. Expand your peripheral vision
+3. Remove subvocalisation and visualise material
+4. Read in a good environment where you can read properly and have good posture
+
+## Thinking
+
+> "Challenges are often the product of a particular type of thinking, and the answer can be found only by bringing a fresh approach to the table"
+
+### 6 Hats of Thinking
+
+1. White Hat - Collecting _information_ and facts about the problem
+2. Yellow Hat - Identifying the positives in any problem; being _optimistic_
+3. Black Hat - Identifying _challenges_ and pitfalls. Consequences of not solving the problem.
+4. Red Hat - Identification of fears and _emotions_ associated with the problem
+5. Green Hat - _Creative_ ideas for solving the problem
+6. Blue Hat - Narrow down ideas from a management perspective. What best solve the problem for everyone involved?
+
+### Forms of Intelligence
+
+1. Spatial - can think from the perspective of other objects and their spatial relations to others
+2. Bodily-Kinesthetic - knows how to use their body for problem-solving or expression
+3. Musical 
+4. Linguistic
+5. Logical-Mathematical - can see relationships between different numbers
+6. Interpersonal - ability to connect with others and deep understanding of other's feelings
+7. Intrapersonal - good sense of what is going on inside of you (eg. Mahatma Gandhi)
+8. Naturalistic - can see the world of nature in all of its complexities
+
+### Other Techniques or Ideas
+
+#### 40/70 Rule
+
+Don't make a decision unless you have at least 40% of information and don't gather more than 70%
+
+#### Not-to-Do List 
+
+Create a list of things you will __not__ do from the beginning. Helps with prioritisation
+* Things that don't add value to your life, won't be noticed by others, things that won't really benefit from being done, things that can be done by someone else
+
+#### Study Your Errors
+
+1. Identify what did or didn't happen
+2. Why did those mistakes happen? 
+3. How can you avoid the same mistakes in the future?
+4. How can you create the best conditions to support your desired outcomes?
+
+#### Second Order Thinking
+
+Most of us think about the consequences of our actions, but few of us think even two steps beyond the immediate effects our actions will have on our lives. Ask yourself "and then what?" What do the consequences look like in 3 days? 3 months? or even 3 years?
+
+#### Exponential Thinking
+
+Linear Thinking is when we look at a problem and seek a solution. Exponential Thinking looks at a problem and tries to identify the root-cause, and solve that instead. Incremental thinking focuses on improving things in steps (10%), but exponential thinking is focused on making things different (10x). 
+
+##### 4 Steps for Exponential Thinking
+
+1. Get to the underlying problem
+2. Posit a new approach - consider some what-if statements
+3. Read about it - get a well rounded view on the subject
+4. Extrapolate
+
