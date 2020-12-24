@@ -43,29 +43,29 @@ I don't want this to control my life anymore, and one technique to help manage m
 * Asking for the right help
 * Being so nervous that I come across unenthusiastic
 
-#### Enjoy Being New and Time is Limited 
+### Enjoy Being New and Time is Limited 
 When starting a new job, especially remotely, it's easy to feel an overpowering eagerness to work on projects and help the team deliver.  
 However, it's important to remember that you only start a job once (each time). You won't get a quiet period like that again, so make the most of it to network with the team and learn the processes and systems. Time is a scarce resource. 
 Also, beware of overcommitting. If you're in a new and different role, it may not be clear how long tasks will take, so it's easy to say 'yes' to everything then realise you don't have enough time to do everything.  I misjudged my time available as I had many training and meetings to attend, with little time for actual work. Going forward I need to be confident with saying 'no' :)
 
-#### Networking Remotely
+### Networking Remotely
 
 I have never started a job remotely and meeting others is much more comfortable in person. You could easily follow a group and see who else they speak to, and conversations start and flow naturally. I started the new job excited, but also nervous. I knew my colleagues are great individuals, with a lot of work. I think my perception of self-worth held me back from immediately booking introductions with the team. I thought that I would be 'interrupting' people and being a disruption, but that's far from reality. My colleagues were all amiable, and even when I didn't know what to say, it was pleasant to get to know them better. My mind tends to imagine the worst-case scenario, and it never turned out like that. I still have people I need to speak with from other teams, so more chats to book in 2021!
 
-##### Tips for shy or socially anxious people like me
+#### Tips for shy or socially anxious people like me
 
 * Don't know who to speak to? Ask someone on your team like your manager.
 * Worried about topics? Ask them what their work history is like, what they're currently working on, their interests, what they like about the job, if there is anything you can shadow or read to understand the role more
 * Don't worry if there is 'awkward silence' - it happens all the time.
 
-#### Asking for Help
+### Asking for Help
 I've always hated asking for help. I would rather spend more time trying to solve a problem or find an answer to a question. 
 Sometimes I worry that I should know how to do specific tasks, but that dreaded word controls my behaviour. I avoid asking for help in fear that I will get fired. 
 However, if a colleague said the same thing to me, I would think that's absurd. 
 Everyone asks for help at some point - so why is this different for me? In the future, if I spend 5 to 10 minutes on something and I am still stuck, it's best to ask someone for help. 
 There is nothing wrong with that, and it's a smarter move - I'll waste less time.
 
-#### Nervous -> Resting Bitch Face
+### Nervous -> Resting Bitch Face
 Engaging in calls with customers or a group of people is hard. A flurry of anxious thoughts fills my mind and can be hard to focus on the main task - communicating, explaining, or merely chatting. As a result, I come across unenthusiastic and combined with my resting bitch face people probably think I hate them, which is entirely far from the truth. To be more comfortable and practice with meetings, particularly virtual ones, I have signed up to Toastmasters and other training for better engagement over virtual calls.
 
 ## Roundup
